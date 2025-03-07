@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lorem</title>
+        <meta charset="utf-8">
+        <link href = "style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <form name = "my-form">
+                <h3>Cat Adoption Form</h3>
+                <label for="name">Enter your full name</label>
+                <input id = "name"name = "nameInput" type = "text" placeholder="Enter your full name here" size = "50" required>
+                <label for="email">Enter your email address</label>
+                <input id = "email" name = "emailInput" type = "text" placeholder="Enter your emailhere" size = "50" required>
+                <label for="phone">Enter your phone number</label>
+                <input id = "phone"name = "phoneInput" type = "number" placeholder="Enter your phone number here" size = "50">
+                <label for="space">Do you have an outdoor space?</label>
+                <input id = "space" name = "spaceInput" type = "checkbox" required>
+                <label for="child">Do you have children living with you or regularly visits you?</label>
+                <input id = "child" name = "childInput" type = "radio" required>
+                <label for="childRange">If yes, please select their age</label>
+                <input id = "childRange" name = "childRangeInput" type = "range" min="0" max ="10">
+                <label for="pet">Do you have other pets living with you?</label>
+                <input id = "pet" name = "petInput" type = "radio" required>
+                <label for="petType">If yes, please select their type</label>
+                <select id = "petType" name = "petTypeInput">
+                    <option value = "dog">Dog</option>
+                    <option value = "bird">Bird</option>
+                    <option value = "fish">Fish</option>
+                </select>
+                <input type = "submit" id = "submit" value = "Submit">
+            </form>
+        </main>
+
+    </body>
+
+
+</html>
